@@ -1,0 +1,35 @@
+body {
+	background-color: black;
+	color: gray;
+	text-align: center;
+	font-family: fantasy;
+}
+
+div.container {
+	padding: 10px;
+}
+
+img.img-full {
+	width: 100%;
+	display: block;
+}
+
+/*
+.column-1-of-3,
+.column-2-of-3,
+.column-3-of-3 {
+	width: 100%;
+}
+
+@media all and (mind-width: 360px){
+	.column-1-of-3 {
+		float: left;
+		width: 33%;
+	}
+
+	.column-2-of-3 {
+		float: left;
+		width: 66%;
+	}
+}
+*/
