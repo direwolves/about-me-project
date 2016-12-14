@@ -1,8 +1,11 @@
+* {box-sizing: border-box;}
+
 body {
 	background-color: black;
 	color: gray;
 	text-align: center;
 	font-family: fantasy;
+	padding-top: 15px;
 }
 
 /*div.container {
@@ -13,9 +16,7 @@ img.img-full {
 	max-width: 200px;
 	width: 100%;
 	display: block;
-	margin: 0 auto;
-	margin-bottom: 5px;
-	margin-top: 5px;
+	margin: 5px auto;
 }
 
 .column-1-of-4,
@@ -24,17 +25,26 @@ img.img-full {
 .column-4-of-4 {
 	width: 100%;
 	float: left;
-
+	margin: 0 auto;
+	border: 1px dotted red;
+	padding: 5px;
 }
 
 @media all and (min-width: 360px){
 	.column-1-of-4 {
 		float: left;
-		width: 25%;
+		width: 50%;
 	}
 
 	.column-2-of-4 {
 		float: left;
 		width: 50%;
+	}
+}
+
+@media all and (min-width: 768px){
+	.column-1-of-4 {
+		float: left;
+		width: 25%;
 	}
 }
