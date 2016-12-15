@@ -8,6 +8,10 @@ body {
 	padding: 15px;
 }
 
+span.character {
+	color: orange;
+}
+
 /* combine these with commas? */
 ul.main-menu li {
 	list-style: none;
@@ -52,7 +56,7 @@ h2 {
 
 p.session-tales {
 	text-align: left;
-	width: 70%;
+	width: 80%;
 	padding-bottom: 100px;
 }
 
@@ -72,8 +76,4 @@ p.session-dates {
 p.session-dates a {
 	list-style: none;
 	text-decoration: none;
-}
-
-p.story-bottom {
-	padding-bottom: 100px;
 }
