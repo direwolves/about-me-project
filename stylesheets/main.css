@@ -106,3 +106,8 @@ p.session-dates a:link {
 	text-decoration: none;
 	color: darkred;
 }
+
+span.title-date {
+	font-size: 14px;
+	text-align: right;
+}
