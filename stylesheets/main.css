@@ -40,9 +40,17 @@ h1 {
 	margin: 0;
 }
 
-p.session-tales, h2 {
+h2 {
+	font-size: 20px;
+	font-style: bold;
+	padding: 10px 0px;
+	text-align: left;
+}
+
+p.session-tales {
 	text-align: left;
 	width: 70%;
+	border-bottom: 1px solid gray;
 }
 
 p.session-dates {
