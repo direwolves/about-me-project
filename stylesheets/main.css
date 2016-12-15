@@ -51,6 +51,7 @@ h2 {
 	text-align: left;
 	width: 70%;
 	border-top: 1px solid gray;
+	color: white;
 
 }
 
@@ -71,6 +72,8 @@ p.session-dates {
 	padding: 10px;
 	background-color: gray;
 	display: block;
+	font-size: 12px;
+	font-style: arial;
 }
 
 p.session-dates a {
