@@ -6,10 +6,12 @@ body {
 	text-align: center;
 	font-family: fantasy;
 	padding: 15px;
+	font-size: 14px;
 }
 
 span.character {
 	color: orange;
+	font-size: 15px;
 }
 
 /* combine these with commas? */
@@ -51,7 +53,7 @@ h2 {
 	text-align: left;
 	width: 70%;
 	border-top: 1px solid gray;
-	color: white;
+	color: darkred;
 
 }
 
@@ -59,6 +61,7 @@ p.session-tales {
 	text-align: left;
 	width: 80%;
 	padding-bottom: 100px;
+	color: lightgray;
 }
 
 p.session-dates {
