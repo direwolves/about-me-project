@@ -15,28 +15,29 @@ ul.main-menu li {
 	margin: 20px;
 }
 
-a {
+ul.main-menu a {
 	text-decoration: none;
 }
 
-a:visited {
+ul.main-menu a:visited {
 	color: gray;
 	text-decoration: none;
 
 }
 
-a:hover {
+ul.main-menu a:hover {
 	color: white;
 	text-decoration: none;
 }
 
-a:link {
+ul.main-menu a:link {
 	color: white;
 	text-decoration: none;
 }
 
 h1 {
 	font-size: 36px;
+	margin: 0;
 }
 
 p.session-tales, h2 {
@@ -55,7 +56,11 @@ p.session-dates {
 	padding: 10px;
 	background-color: gray;
 	display: block;
+}
 
+p.session-dates a {
+	list-style: none;
+	text-decoration: none;
 }
 
 p.story-bottom {
