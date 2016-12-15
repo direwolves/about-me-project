@@ -86,4 +86,23 @@ p.session-dates {
 p.session-dates a {
 	list-style: none;
 	text-decoration: none;
+	color: black;
+}
+
+p.session-dates a:visited {
+	list-style: none;
+	text-decoration: none;
+	color: black;
+}
+
+p.session-dates a:hover {
+	list-style: none;
+	text-decoration: none;
+	color: darkred;
+}
+
+p.session-dates a:link {
+	list-style: none;
+	text-decoration: none;
+	color: darkred;
 }
