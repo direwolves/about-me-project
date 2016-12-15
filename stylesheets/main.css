@@ -47,7 +47,7 @@ h1 {
 }
 
 h2 {
-	font-size: 20px;
+	font-size: 32px;
 	font-style: bold;
 	padding: 10px 0px;
 	text-align: left;
@@ -63,6 +63,7 @@ p.session-tales {
 	padding-top: 25px;
 	color: lightgray;
 	border-bottom: 1px solid gray;
+	line-height: 1.5;
 
 }
 
