@@ -64,14 +64,12 @@ p.session-tales {
 	color: lightgray;
 	border-bottom: 1px solid gray;
 	line-height: 1.5;
-	font-family: helvetica;
-
 }
 
-p.session-dates {
+ul.session-dates {
 	text-align: center;
-	max-width: 150px;
-	width: 100%;
+	
+	width: 150px;
 	position: fixed;
 	top: 15px;
 	right: 15px;
@@ -79,8 +77,7 @@ p.session-dates {
 	padding: 10px;
 	background-color: gray;
 	display: block;
-	font-size: 12px;
-	font-style: arial;
+	font-size: 12px;	
 }
 
 p.session-dates a {
