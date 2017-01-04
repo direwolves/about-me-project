@@ -58,18 +58,13 @@ a {
 	text-decoration: none;
 }
 
-a:visited {
+a:link, a:visited {
 	color: gray;
 	text-decoration: none;
 
 }
 
-a:hover {
-	color: white;
-	text-decoration: none;
-}
-
-a:link {
+a:hover, a:active {
 	color: white;
 	text-decoration: none;
 }
