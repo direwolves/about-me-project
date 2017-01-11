@@ -19,6 +19,7 @@ img.img-full {
 	width: 100%;
 	display: block;
 	margin: 5px auto;
+	border: 1px solid red;
 }
 
 .column-1-of-4 {
@@ -26,6 +27,7 @@ img.img-full {
 	float: left;
 	margin: 0 auto;
 	padding: 5px;
+	border: 1px solid blue;
 }
 
 @media all and (min-width: 360px){
@@ -45,6 +47,19 @@ img.img-full {
 		float: left;
 		width: 25%;
 	}
+}
+
+p.hide-text {
+	opacity: .5;
+	border: 1px solid orange;
+}
+
+p.hide-text:hover {
+	opacity: 1;
+}
+
+.enlarge-scale:hover {
+	transform: scale(1.3);
 }
 
 ul.main-menu li {
