@@ -12,6 +12,7 @@ body {
 h1 {
 	font-size: 36px;
 	text-transform: uppercase;
+	margin: 25px auto;
 }
 
 img.img-full {
@@ -49,13 +50,18 @@ img.img-full {
 	}
 }
 
-p.hide-text {
-	opacity: .5;
+p.gallerytext {
+	display: none;
 	border: 1px solid orange;
+	position: absolute;
+	padding: 6px;
+	font-size: 10px;
 }
 
-p.hide-text:hover {
+.enlarge-scale:hover p.gallerytext {
 	opacity: 1;
+	display: block;
+	background-color: black;
 }
 
 .enlarge-scale:hover {
