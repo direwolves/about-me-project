@@ -15,6 +15,9 @@ h1 {
 	margin: 25px auto;
 }
 
+
+/*------------------IMAGES---------------------*/
+
 img.img-full {
 	max-width: 500px;
 	width: 100%;
@@ -50,6 +53,10 @@ img.img-full {
 	}
 }
 
+
+
+/*---------------WHERE THE MAGIC HAPPENS---------------*/
+
 p.gallerytext {
 	display: none;
 	border: 1px solid orange;
@@ -67,6 +74,9 @@ p.gallerytext {
 .enlarge-scale:hover {
 	transform: scale(1.3);
 }
+
+
+/*----------------------MAIN MENU-------------------*/
 
 ul.main-menu li {
 	list-style: none;

@@ -29,10 +29,28 @@ span.character {
 	font-size: 20px;
 }
 
+h2 {
+	font-size: 32px;
+	font-style: bold;
+	padding: 10px 0px;
+	text-align: left;
+	width: 80%;
+	color: darkred;
+}
+
+.column-1-of-3 {
+	width: 33.3%;
+	float: left;
+	display: block;
+	min-width: 150px;
+}
+
+/*----------------INDEX/TALES MAIN MENU------------*/
+
 ul.main-menu {
 	margin-bottom: 0px;
 }
-/* combine these with commas? */
+
 ul.main-menu li {
 	list-style: none;
 	display: inline;
@@ -54,21 +72,12 @@ ul.main-menu a:hover, ul.main-menu a:active {
 	text-decoration: none;
 }
 
-h2 {
-	font-size: 32px;
-	font-style: bold;
-	padding: 10px 0px;
-	text-align: left;
-	width: 80%;
-	color: darkred;
-}
+/*------------------------------*/
 
-.column-1-of-3 {
-	width: 33.3%;
-	float: left;
-	display: block;
-	min-width: 150px;
-}
+
+
+
+/*----------INDEX: CHARACTER ICONS---------------------*/
 
 .icon-margin {
 	padding: 5px;
@@ -89,6 +98,9 @@ h2 {
 	color: #acb4c1;
 }
 
+
+/*------------TALES: PARAGRAPHS-----------------------*/
+
 p.session-tales {
 	text-align: left;
 	width: 80%;
@@ -97,6 +109,8 @@ p.session-tales {
 	color: lightgray;
 	line-height: 1.5;
 }
+
+/*-----------TALES: SIDE MENU NAVIGATION----------------*/
 
 ul.session-dates {
 	text-align: center;
@@ -139,6 +153,8 @@ ul.session-dates a:active {
 	text-decoration: none;
 	color: darkred;
 }
+/*--------------TALES: SPAN FOR ENTRY DATES---------------*/
+
 
 span.title-date {
 	font-size: 14px;
